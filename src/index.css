@@ -150,14 +150,14 @@ header a:hover {
 
 /*** VAN PAGES ***/
 .van-list-container {
-  padding-inline: 23px;
+  padding-inline: 37px;
 }
 
 .van-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  gap: 34px;
+  gap: 2.5rem;
   margin-top: 57px;
 }
 
@@ -168,7 +168,7 @@ header a:hover {
 
 .van-tile img {
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .van-list-container button {
