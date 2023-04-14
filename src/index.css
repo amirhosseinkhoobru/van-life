@@ -134,6 +134,17 @@ footer {
   transform: translate(1px, 1px);
 }
 
+/*** NOTFOUND PAGE ***/
+
+.notfound-container {
+  padding-inline: 26px;
+}
+.notfound-container .link-button {
+  width: 100%;
+  background-color: #161616;
+  color: #eee;
+}
+
 /*** ABOUT PAGE ***/
 .about-hero-image {
   max-width: 100%;
@@ -180,7 +191,16 @@ footer {
 .van-list-container {
   padding-inline: 37px;
 }
-
+.van-list-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.van-list-filter-buttons button {
+  font-size: 16px;
+  font-weight: 600;
+  margin-inline: 10px;
+  cursor: pointer;
+}
 .van-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -435,7 +455,7 @@ i[class*="van-type-"] {
 
 .host-van-price > span {
   font-size: 16px;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .host-van-detail-image {
