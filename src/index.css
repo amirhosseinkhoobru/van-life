@@ -207,6 +207,7 @@ footer {
   justify-items: center;
   gap: 2.5rem;
   margin-top: 57px;
+  padding-inline: 25px;
 }
 
 .van-tile a {
